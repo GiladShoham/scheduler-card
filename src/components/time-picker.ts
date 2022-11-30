@@ -20,7 +20,7 @@ export class TimePicker extends LitElement {
 
   @property() _time!: number;
 
-  maxOffset = 2;
+  maxOffset = 5;
 
   get time() {
     if (this._time >= 0) return this._time;
